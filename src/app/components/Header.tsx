@@ -16,11 +16,11 @@ const Header = () => {
       <nav className="flex justify-between items-center max-w-6xl mx-auto">
         <div className="flex justify-start items-center space-x-8">
           <Link href="/">
-            <h4 className="text-black text-2xl font-extrabold">Votee</h4>
+            <h4 className="text-black text-2xl font-extrabold">BlockVote</h4>
           </Link>
 
           <div className="flex justify-start items-center space-x-2">
-            <Link href={'/create'}>Create</Link>
+            <Link href={'/create'}>+ New Poll</Link>
           </div>
         </div>
 

@@ -1,10 +1,10 @@
 const anchor = require('@coral-xyz/anchor')
 const { SystemProgram, PublicKey } = anchor.web3
 
-describe('votee', () => {
+describe('vote', () => {
   const provider = anchor.AnchorProvider.local()
   anchor.setProvider(provider)
-  const program = anchor.workspace.Votee
+  const program = anchor.workspace.Vote
 
   let PID: any, CID: any
 

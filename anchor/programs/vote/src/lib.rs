@@ -13,7 +13,7 @@ use states::*;
 declare_id!("FQSjkWA6Sb6PcEJm693XsX9GETY7zhArPcPkkuLwdGws");
 
 #[program]
-pub mod votee {
+pub mod vote {
 
     use super::*;
 

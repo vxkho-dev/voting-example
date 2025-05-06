@@ -4,10 +4,10 @@
  * Note that this is only a type helper and is not the actual IDL. The original
  * IDL can be found at `target/idl/votee.json`.
  */
-export type Votee = {
+export type Vote = {
   "address": "FQSjkWA6Sb6PcEJm693XsX9GETY7zhArPcPkkuLwdGws",
   "metadata": {
-    "name": "votee",
+    "name": "vote",
     "version": "0.1.0",
     "spec": "0.1.0",
     "description": "Created with Anchor"
