@@ -5,17 +5,17 @@ anchor_version = "0.30.1"
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-votee = "FQSjkWA6Sb6PcEJm693XsX9GETY7zhArPcPkkuLwdGws"
-
 [programs.devnet]
-votee = "FQSjkWA6Sb6PcEJm693XsX9GETY7zhArPcPkkuLwdGws"
+vote = "TuPK3H9j9vsfJtHMizmosMrpRndrCJ6Ftuqh4BohmiF"
+
+[programs.localnet]
+vote = "TuPK3H9j9vsfJtHMizmosMrpRndrCJ6Ftuqh4BohmiF"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

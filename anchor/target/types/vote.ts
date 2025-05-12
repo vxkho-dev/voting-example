@@ -2,10 +2,10 @@
  * Program IDL in camelCase format in order to be used in JS/TS.
  *
  * Note that this is only a type helper and is not the actual IDL. The original
- * IDL can be found at `target/idl/votee.json`.
+ * IDL can be found at `target/idl/vote.json`.
  */
 export type Vote = {
-  "address": "FQSjkWA6Sb6PcEJm693XsX9GETY7zhArPcPkkuLwdGws",
+  "address": "TuPK3H9j9vsfJtHMizmosMrpRndrCJ6Ftuqh4BohmiF",
   "metadata": {
     "name": "vote",
     "version": "0.1.0",

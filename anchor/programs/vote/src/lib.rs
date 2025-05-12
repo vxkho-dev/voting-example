@@ -10,7 +10,7 @@ use instructions::*;
 #[allow(unused_imports)]
 use states::*;
 
-declare_id!("FQSjkWA6Sb6PcEJm693XsX9GETY7zhArPcPkkuLwdGws");
+declare_id!("TuPK3H9j9vsfJtHMizmosMrpRndrCJ6Ftuqh4BohmiF");
 
 #[program]
 pub mod vote {
